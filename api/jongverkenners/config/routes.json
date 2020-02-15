@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jongverkenners",
+      "handler": "jongverkenners.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jongverkenners/count",
+      "handler": "jongverkenners.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jongverkenners/:id",
+      "handler": "jongverkenners.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/jongverkenners",
+      "handler": "jongverkenners.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jongverkenners/:id",
+      "handler": "jongverkenners.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jongverkenners/:id",
+      "handler": "jongverkenners.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

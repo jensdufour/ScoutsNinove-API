@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/welpens",
+      "handler": "welpen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/welpens/count",
+      "handler": "welpen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/welpens/:id",
+      "handler": "welpen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/welpens",
+      "handler": "welpen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/welpens/:id",
+      "handler": "welpen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/welpens/:id",
+      "handler": "welpen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

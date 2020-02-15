@@ -1,0 +1,31 @@
+{
+  "info": {
+    "name": "Verkenners"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Vergadering": {
+      "type": "string"
+    },
+    "Begin": {
+      "type": "datetime"
+    },
+    "Einde": {
+      "type": "datetime"
+    },
+    "Beschrijving": {
+      "type": "richtext"
+    },
+    "Afbeelding": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  },
+  "connection": "default",
+  "collectionName": "verkenners"
+}

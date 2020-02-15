@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "kapoenens",
+  "info": {
+    "name": "Kapoenen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Vergadering": {
+      "type": "string"
+    },
+    "Start": {
+      "type": "datetime"
+    },
+    "Einde": {
+      "type": "datetime"
+    },
+    "Beschrijving": {
+      "type": "richtext"
+    },
+    "Afbeelding": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

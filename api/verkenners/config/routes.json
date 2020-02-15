@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/verkenners",
+      "handler": "verkenners.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/verkenners/count",
+      "handler": "verkenners.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/verkenners/:id",
+      "handler": "verkenners.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/verkenners",
+      "handler": "verkenners.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/verkenners/:id",
+      "handler": "verkenners.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/verkenners/:id",
+      "handler": "verkenners.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

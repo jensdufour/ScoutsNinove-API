@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kapoenens",
+      "handler": "kapoenen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kapoenens/count",
+      "handler": "kapoenen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kapoenens/:id",
+      "handler": "kapoenen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kapoenens",
+      "handler": "kapoenen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kapoenens/:id",
+      "handler": "kapoenen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kapoenens/:id",
+      "handler": "kapoenen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

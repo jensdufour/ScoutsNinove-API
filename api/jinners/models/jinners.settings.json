@@ -1,0 +1,31 @@
+{
+  "info": {
+    "name": "Jinners"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Naam": {
+      "type": "string"
+    },
+    "Begin": {
+      "type": "datetime"
+    },
+    "Einde": {
+      "type": "datetime"
+    },
+    "Beschrijving": {
+      "type": "richtext"
+    },
+    "Afbeelding": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  },
+  "connection": "default",
+  "collectionName": "jinners"
+}

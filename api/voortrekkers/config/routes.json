@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/voortrekkers",
+      "handler": "voortrekkers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/voortrekkers/count",
+      "handler": "voortrekkers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/voortrekkers/:id",
+      "handler": "voortrekkers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/voortrekkers",
+      "handler": "voortrekkers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/voortrekkers/:id",
+      "handler": "voortrekkers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/voortrekkers/:id",
+      "handler": "voortrekkers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
